@@ -1,48 +1,76 @@
-p{
-    
-    padding:14px 14px;
-    background:#313178;
-    color: #AAAAAA;
-    display:inline-block; 
-    
-}
-ul{
-    list-style-type: none;
-}
 
-li{
-
-    display: inline-block;
-    padding: 14px 16px;
-    color:#313178;
-    margin: 0;
-}
-
-body {
-    font-family: Arial, Helvetica, sans-serif;
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
   }
-  
-  .navbar {
+  html,
+  body {
+    font-family: Roboto, sans-serif, arial;
+    font-size: 14px;
+    color: #242424;
+  }
+  .container {
+    width: 1300px;
+    margin: 0px auto;
+    
+  }
+  .main-section {
+    width: 100%;
+    float: left;
+    padding: 70px 0px 70px 0px;
+  }
+  .heading {
+    font-size: 28px;
+    font-weight: 500;
+    border-bottom: 1px solid #7474b0;
+    margin-bottom: 20px;
+    color: #7474b0;
+  }
+
+  .header {
+	background: #7474b0;
+	padding: 6px;
+}
+.header b {
+	background: #fff;
+	color: red;
+	padding:10px;
+	font-size: 20px;
+}
+.header marquee {
+	font-size:20px;
+	color: #ffffff;
+	width: 80%;
+}
+
+.logo {
+	height: 80px;
+}
+
+.navbar {
+	float: right;
     overflow: hidden;
     background-color: white;
-  }
-  
-  .navbar a {
-    float: left;
-    font-size: 16px;
-    color: black;
+}
+.navbar a {
+	color: black;
+	text-decoration: none;
+	font-size:14px;
+	padding:2px 10px;
+	font-weight:500;
     text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-  }
-  
-  .dropdown {
+    float: right; /*left*/
+}
+
+.dropdown {
     float: left;
     overflow: hidden;
   }
   
   .dropdown .dropbtn {
-    font-size: 16px;  
+    font-size: 14px; 
+    font-weight: 500; 
     border: none;
     outline: none;
     color: black;
@@ -82,27 +110,154 @@ body {
     display: block;
   }
 
-  .center {
-    display: block;
-    margin-left:auto;
-    margin-right: auto;
-    width: 50%;
+  .image-slideshow {
+    max-width: 500%;
+    position:relative;
+    margin:5%;
+  }
+  
+  
+  
+
+.event {
+    width: 24%;
+    margin-right: 1%;
+    float: left;
+    background-color: #fff;
+    padding: 10px;
+  }
+.event .heading {
+    border-bottom: 1px solid #7474b0;
+    padding: 1px;
+    color: #fff;
+    background: #7474b0;
+    text-align: center;
+    font-size: 23px;
+  }
+.event ul li {
+    margin-bottom: 20px;
+    width: 100%;
+    float: left;
+    list-style: none;
+  }
+.event-date {
+    background: #7474b0;
+    float: left;
+    text-align: center;
+    font-size: 14px;
+    color: #fff;
+    padding: 8px 12px;
+    margin-right: 10px;
   }
 
-  body {
-    margin: 0;
-    padding: 0;
-}
+  .column {
+    float:inline-start;
+    width: 25%;
+    padding-left: 30px;
+  }
 
-table {
+  .row::after {
+    content: "";
+    clear: both;
+    display: flexbox;
+  }
+
+  .about-us div {
+    width: 50%;
+    float: left;
+    line-height: 30px;
+    font-size: 16px;
+  }
+  .about-us h4 {
+    font-size: 22px;
+  }
+  .about-us p {
+    line-height: 30px;
+  }
+  .about-us img {
+    width: 40%;
+    float: left;
+  }
+
+  .award p {
     width: 100%;
-    
-    
-}
+    float: left;
+    font-size: 14px;
+  }
 
-th, td {
-    
-    padding: 8px;
+  .event p{
+    margin-bottom: 10px;
+  }
+  .award img {
+    width: 100%;
+  }
+  .award b {
+    min-width: 115px;
+    float: left;
+    margin-bottom: 20px;
+  }
+  .award h3 {
+    font-size: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+
+  .testimonial {
+    width: 30.5%;
+    float: left;
+    margin-right: 2.5%;
+  }
+  .testimonial-text {
+    background: #7474b0;
+    padding: 20px;
+    line-height: 35px;
+    border-radius: 10px;
+    color: #fff;
+    font-size: 18px;
     text-align: left;
-}
+  }
+  .testimonial-detail {
+    float: left;
+    margin-top: 10px;
+  }
+  .testimonial-img {
+    float: left;
+  }
+  
+  .testimonial-name {
+    margin-left: 10px;
+    float: left;
+  }
+  .testimonial-name h5 {
+    font-size: 18px;
+    margin-top: 8px;
+  }
 
+  .gallery img {
+    width: 24%;
+  }
+
+  .footer {
+    background-color: #7474b0;
+    padding: 20px 0px;
+    width: 100%;
+    float: left;
+  }
+  
+  .footer-sect {
+    width: 100%;
+    float: left;
+    text-align: center;
+    margin-top: 20px;
+  }
+  .footer-sect a {
+    color: white;
+    margin-left: 10px;
+    text-decoration: none;
+  }
+
+  .footer-sect p{
+    color: white;
+  }
+  
+  
